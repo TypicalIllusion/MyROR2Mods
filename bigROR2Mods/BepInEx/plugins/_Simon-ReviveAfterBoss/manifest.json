@@ -1,0 +1,10 @@
+{
+    "name": "ReviveAfterBoss",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "Revives every dead player after the boss has been defeated.",
+    "dependencies": [
+        "bbepis-BepInExPack-3.2.0",
+	"tristanmcpherson-R2API-2.4.21"
+    ]
+}

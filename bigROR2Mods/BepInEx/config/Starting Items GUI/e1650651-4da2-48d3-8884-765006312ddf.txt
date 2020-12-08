@@ -1,0 +1,9 @@
+profiles = 0,0,0,0
+userPointsConsumable = 0
+userPointsConsumableRecent = 0
+itemsPurchasedConsumable = 
+userPointsPersistent = 0
+userPointsPersistentRecent = 0
+itemsPurchasedPersistent = 
+pastPlayApplied = False
+itemsPurchasedFree = 

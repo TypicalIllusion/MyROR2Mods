@@ -1,0 +1,10 @@
+{
+    "name": "Lunar_Chimera",
+    "version_number": "0.0.6",
+    "website_url": "",
+    "description": "Adds a playable Lunar Chimera (Golem Form) with customized abilities.",
+    "dependencies": [
+    "tristanmcpherson-R2API-2.5.11",
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

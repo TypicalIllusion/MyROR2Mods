@@ -1,0 +1,10 @@
+{
+  "name": "BanditReloaded",
+  "version_number": "2.2.2",
+  "website_url": "",
+  "description": "Adds Bandit as a playable survivor with 4 alt skills! Now with support for the Ancient Scepter from ThinkInvis's ClassicItems mod!",
+  "dependencies": [
+    "bbepis-BepInExPack-5.3.1",
+    "tristanmcpherson-R2API-2.5.14"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "RespawnAfterBoss",
+    "version_number": "0.1.0",
+    "website_url": "",
+    "description": "Dead players will respawn after the boss is dead",
+    "dependencies": [
+        "bbepis-BepInExPack-5.3.1",
+        "tristanmcpherson-R2API-2.5.14"        
+    ]
+}

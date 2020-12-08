@@ -1,0 +1,9 @@
+{
+	"name": "PrestigiousSkinpack",
+	"version_number": "1.2.9",
+	"website_url": "",
+	"description": "Adds a prestigious white/gold skin for everyone, now including Bandit, Lunar Chimera and Void Reaver. And Engi Turrets!",
+	"dependencies": [
+		"RyanPallesen-RyanSkinAPI-3.4.4"
+	]
+}

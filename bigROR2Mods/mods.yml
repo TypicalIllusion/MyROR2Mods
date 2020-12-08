@@ -1,0 +1,714 @@
+- manifestVersion: 1
+  name: bbepis-BepInExPack
+  authorName: bbepis
+  websiteUrl: https://thunderstore.io/package/bbepis/BepInExPack/
+  displayName: BepInExPack
+  description: Unified BepInEx all-in-one modding pack - plugin framework, detour library
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 5
+    minor: 3
+    patch: 1
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\bbepis-BepInExPack\5.3.1\icon.png
+- manifestVersion: 1
+  name: Rein-Sniper
+  authorName: Rein
+  websiteUrl: https://thunderstore.io/package/Rein/Sniper/
+  displayName: Sniper
+  description: Adds a Sniper character to the game, complete with an original model and
+    animations (by Drag), a polished kit, and a lot more content planned.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 0
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-Sniper\1.3.0\icon.png
+- manifestVersion: 1
+  name: KingEnderBrine-InLobbyConfig
+  authorName: KingEnderBrine
+  websiteUrl: https://thunderstore.io/package/KingEnderBrine/InLobbyConfig/
+  displayName: InLobbyConfig
+  description: Adds an ability to edit configs for mods (that support this) inside a lobby
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.5.28
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\KingEnderBrine-InLobbyConfig\1.0.2\icon.png
+- manifestVersion: 1
+  name: tristanmcpherson-R2API
+  authorName: tristanmcpherson
+  websiteUrl: https://thunderstore.io/package/tristanmcpherson/R2API/
+  displayName: R2API
+  description: A modding API for Risk of Rain 2
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-3.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 5
+    patch: 14
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\tristanmcpherson-R2API\2.5.14\icon.png
+- manifestVersion: 1
+  name: KingEnderBrine-PartialMetamorphosis
+  authorName: KingEnderBrine
+  websiteUrl: https://thunderstore.io/package/KingEnderBrine/PartialMetamorphosis/
+  displayName: PartialMetamorphosis
+  description: Allows Metamorphosis artifact to be applied only on those who selected it
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - KingEnderBrine-InLobbyConfig-1.0.0
+    - tristanmcpherson-R2API-2.5.28
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\KingEnderBrine-PartialMetamorphosis\1.1.0\icon.png
+- manifestVersion: 1
+  name: FunkFrog-and-Sipondo-ShareSuite
+  authorName: FunkFrog-and-Sipondo
+  websiteUrl: https://thunderstore.io/package/FunkFrog-and-Sipondo/ShareSuite/
+  displayName: ShareSuite
+  description: Share gear between members of your party - Highly Balanced - Completely
+    Customisable
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.5.14
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 4
+    patch: 0
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\FunkFrog-and-Sipondo-ShareSuite\2.4.0\icon.png
+- manifestVersion: 1
+  name: MagnusMagnuson-BiggerBazaar
+  authorName: MagnusMagnuson
+  websiteUrl: https://thunderstore.io/package/MagnusMagnuson/BiggerBazaar/
+  displayName: BiggerBazaar
+  description: Expands the Bazaar with random items that can be bought with money you have
+    left at the end of the stage (now lunar coins, too).
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.5.14
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 12
+    patch: 9
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-BiggerBazaar\1.12.9\icon.png
+- manifestVersion: 1
+  name: _Simon-ReviveAfterBoss
+  authorName: _Simon
+  websiteUrl: https://thunderstore.io/package/_Simon/ReviveAfterBoss/
+  displayName: ReviveAfterBoss
+  description: Revives every dead player after the boss has been defeated.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.4.21
+    - bbepis-BepInExPack-3.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\_Simon-ReviveAfterBoss\1.0.0\icon.png
+- manifestVersion: 1
+  name: ontrigger-ItemStatsMod
+  authorName: ontrigger
+  websiteUrl: https://thunderstore.io/package/ontrigger/ItemStatsMod/
+  displayName: ItemStatsMod
+  description: Calculates and shows stack bonuses in the item tooltip. Now with BepIn
+    support!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.5.14
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\ontrigger-ItemStatsMod\2.1.0\icon.png
+- manifestVersion: 1
+  name: Chen-ChensMinionRetarget
+  authorName: Chen
+  websiteUrl: https://thunderstore.io/package/Chen/ChensMinionRetarget/
+  displayName: ChensMinionRetarget
+  description: Rollback dependency to old version of R2API. Assign a priority target for
+    your minions by pinging enemies. They will only acknowledge this command
+    from their owner/master.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.5.14
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: false
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\Chen-ChensMinionRetarget\1.0.1\icon.png
+- manifestVersion: 1
+  name: SSM24-FadeEmptyChests
+  authorName: SSM24
+  websiteUrl: https://thunderstore.io/package/SSM24/FadeEmptyChests/
+  displayName: FadeEmptyChests
+  description: Makes chests and barrels partially fade out after being opened.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.5.14
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\SSM24-FadeEmptyChests\1.0.0\icon.png
+- manifestVersion: 1
+  name: Moffein-BanditReloaded
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/BanditReloaded/
+  displayName: BanditReloaded
+  description: Adds Bandit as a playable survivor with 4 alt skills! Now with support for
+    the Ancient Scepter from ThinkInvis's ClassicItems mod!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.5.14
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 2
+    patch: 2
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-BanditReloaded\2.2.2\icon.png
+- manifestVersion: 1
+  name: EnforcerGang-Enforcer
+  authorName: EnforcerGang
+  websiteUrl: https://thunderstore.io/package/EnforcerGang/Enforcer/
+  displayName: Enforcer
+  description: Adds the Enforcer from Risk of Rain 1 as a fully fleshed out playable
+    survivor. Now with Ancient Scepter support
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.5.14
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\EnforcerGang-Enforcer\1.1.2\icon.png
+- manifestVersion: 1
+  name: NotTsunami-ShowDeathCause
+  authorName: NotTsunami
+  websiteUrl: https://thunderstore.io/package/NotTsunami/ShowDeathCause/
+  displayName: ShowDeathCause
+  description: Tells you and your friends how you were killed in chat.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+    - tristanmcpherson-R2API-2.5.6
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\NotTsunami-ShowDeathCause\1.0.4\icon.png
+- manifestVersion: 1
+  name: pixeldesu-Pingprovements
+  authorName: pixeldesu
+  websiteUrl: https://thunderstore.io/package/pixeldesu/Pingprovements/
+  displayName: Pingprovements
+  description: Several improvements to Pings, like multiple pings and adjustable timers or
+    colors per type
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 7
+    patch: 0
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\pixeldesu-Pingprovements\1.7.0\icon.png
+- manifestVersion: 1
+  name: mries92-SafeMenus
+  authorName: mries92
+  websiteUrl: https://thunderstore.io/package/mries92/SafeMenus/
+  displayName: SafeMenus
+  description: Keeps you safe at the command and scrapper menus. Various protection types
+    including shield/invisibility/invincibility. Fully configurable // Server
+    can force settings.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.5.7
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\mries92-SafeMenus\1.0.1\icon.png
+- manifestVersion: 1
+  name: AwokenEnigma-StatsDisplayPlus
+  authorName: AwokenEnigma
+  websiteUrl: https://thunderstore.io/package/AwokenEnigma/StatsDisplayPlus/
+  displayName: StatsDisplayPlus
+  description: Displays character stats! Now works with the new 1.0 patch!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.5.14
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 2
+  enabled: false
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\AwokenEnigma-StatsDisplayPlus\2.0.2\icon.png
+- manifestVersion: 1
+  name: mistername-BuffPlus
+  authorName: mistername
+  websiteUrl: https://thunderstore.io/package/mistername/BuffPlus/
+  displayName: BuffPlus
+  description: Adds Timers to buffs.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.1.0
+    - bbepis-BepInExPack-2.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 1
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\mistername-BuffPlus\1.2.1\icon.png
+- manifestVersion: 1
+  name: KingEnderBrine-LobbyVotesSave
+  authorName: KingEnderBrine
+  websiteUrl: https://thunderstore.io/package/KingEnderBrine/LobbyVotesSave/
+  displayName: LobbyVotesSave
+  description: Saves chosen difficulty, character and artifacts between the game restarts
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.5.28
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\KingEnderBrine-LobbyVotesSave\1.1.2\icon.png
+- manifestVersion: 1
+  name: Moffein-Clay_Men
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/Clay_Men/
+  displayName: Clay_Men
+  description: Adds the unused Clay Man to spawn pool.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.5.7
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 3
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-Clay_Men\1.1.3\icon.png
+- manifestVersion: 1
+  name: Phedg1Studios-StartingItemsGUI
+  authorName: Phedg1Studios
+  websiteUrl: https://thunderstore.io/package/Phedg1Studios/StartingItemsGUI/
+  displayName: StartingItemsGUI
+  description: "This mod will allow players to use a GUI to select which items will be
+    given to them at the start of a run. There are 4 modes: Free, Earnt
+    Persistent, Earnt Consumable and Random."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.5.14
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 2
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\Phedg1Studios-StartingItemsGUI\1.2.2\icon.png
+- manifestVersion: 1
+  name: LuaFubuki-Lunar_Chimera
+  authorName: LuaFubuki
+  websiteUrl: https://thunderstore.io/package/LuaFubuki/Lunar_Chimera/
+  displayName: Lunar_Chimera
+  description: Adds a playable Lunar Chimera (Golem Form) with customized abilities.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+    - tristanmcpherson-R2API-2.5.11
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 6
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\LuaFubuki-Lunar_Chimera\0.0.6\icon.png
+- manifestVersion: 1
+  name: TheRealElysium-WaxQuailMultiJump
+  authorName: TheRealElysium
+  websiteUrl: https://thunderstore.io/package/TheRealElysium/WaxQuailMultiJump/
+  displayName: WaxQuailMultiJump
+  description: Makes Wax Quail apply to feather jumps.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-2.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\TheRealElysium-WaxQuailMultiJump\1.0.1\icon.png
+- manifestVersion: 1
+  name: TheRealElysium-ScalingBloodShrines
+  authorName: TheRealElysium
+  websiteUrl: https://thunderstore.io/package/TheRealElysium/ScalingBloodShrines/
+  displayName: ScalingBloodShrines
+  description: Makes Blood Shrines viable into the late game.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.2.32
+    - bbepis-BepInExPack-2.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\TheRealElysium-ScalingBloodShrines\1.0.1\icon.png
+- manifestVersion: 1
+  name: TheRealElysium-IncreasingChanceShrineReturns
+  authorName: TheRealElysium
+  websiteUrl: https://thunderstore.io/package/TheRealElysium/IncreasingChanceShrineReturns/
+  displayName: IncreasingChanceShrineReturns
+  description: After an unsuccessful attempt on a chance shrine, the next attempt will be
+    more likely to succeed.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-1.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\TheRealElysium-IncreasingChanceShrineReturns\1.0.0\icon.png
+- manifestVersion: 1
+  name: rob-MinerUnearthed
+  authorName: rob
+  websiteUrl: https://thunderstore.io/package/rob/MinerUnearthed/
+  displayName: MinerUnearthed
+  description: Adds the Miner from Risk of Rain 1. Now with a custom boss, Direseeker!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.5.14
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 0
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\rob-MinerUnearthed\1.4.0\icon.png
+- manifestVersion: 1
+  name: LuaFubuki-Void_Reaver
+  authorName: LuaFubuki
+  websiteUrl: https://thunderstore.io/package/LuaFubuki/Void_Reaver/
+  displayName: Void_Reaver
+  description: Adds a playable Void Reaver with customized abilities.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+    - tristanmcpherson-R2API-2.5.11
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 3
+    patch: 6
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\LuaFubuki-Void_Reaver\0.3.6\icon.png
+- manifestVersion: 1
+  name: neutrino-steak-RespawnAfterBoss
+  authorName: neutrino-steak
+  websiteUrl: https://thunderstore.io/package/neutrino-steak/RespawnAfterBoss/
+  displayName: RespawnAfterBoss
+  description: Dead players will respawn after the boss is dead
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.5.14
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\neutrino-steak-RespawnAfterBoss\0.1.0\icon.png
+- manifestVersion: 1
+  name: Rein-RogueWisp
+  authorName: Rein
+  websiteUrl: https://thunderstore.io/package/Rein/RogueWisp/
+  displayName: RogueWisp
+  description: Includes an entirely original survivor and a new late game boss. The
+    survivor is a close range caster with very high damage potential but no
+    mobility and limited defensive options. You may recognize the boss from
+    RoR1.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 1
+    patch: 14
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-RogueWisp\2.1.14\icon.png
+- manifestVersion: 1
+  name: Harb-DiluvianDifficulty
+  authorName: Harb
+  websiteUrl: https://thunderstore.io/package/Harb/DiluvianDifficulty/
+  displayName: DiluvianDifficulty
+  description: Adds two new harder difficulties to the game.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.5.7
+    - bbepis-BepInExPack-5.3.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 6
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-DiluvianDifficulty\2.0.6\icon.png
+- manifestVersion: 1
+  name: RyanPallesen-RyanSkinAPI
+  authorName: RyanPallesen
+  websiteUrl: https://thunderstore.io/package/RyanPallesen/RyanSkinAPI/
+  displayName: RyanSkinAPI
+  description: An API that allows easy skin loading from PNG files
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-3.0.0
+    - tristanmcpherson-R2API-2.5.6
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 4
+    patch: 4
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\RyanPallesen-RyanSkinAPI\3.4.4\icon.png
+- manifestVersion: 1
+  name: marklow-PrestigiousSkinpack
+  authorName: marklow
+  websiteUrl: https://thunderstore.io/package/marklow/PrestigiousSkinpack/
+  displayName: PrestigiousSkinpack
+  description: Adds a prestigious white/gold skin for everyone, now including Bandit, Lunar
+    Chimera and Void Reaver. And Engi Turrets!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RyanPallesen-RyanSkinAPI-3.4.4
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 9
+  enabled: true
+  icon: C:\Users\shrim\AppData\Roaming\r2modmanPlus-local\mods\cache\marklow-PrestigiousSkinpack\1.2.9\icon.png

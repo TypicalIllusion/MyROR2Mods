@@ -1,0 +1,10 @@
+{
+  "name": "StatsDisplayPlus",
+  "version_number": "2.0.2",
+  "website_url": "",
+  "description": "Displays character stats! Now works with the new 1.0 patch!",
+  "dependencies": [
+    "bbepis-BepInExPack-5.3.1",
+    "tristanmcpherson-R2API-2.5.14"
+  ]
+}
